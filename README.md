@@ -1,1 +1,4 @@
 # IP-Address-Finder
+The "IP-Address-Finder" utilizes the Splay Tree data structure to construct a tree where nodes represent devices connected to a network router, each embedded with a unique IP address. In this implementation, we consider 12 devices connected to a single network router, and the IP addresses share a common prefix. The router receives specific data packets from the internet intended for particular devices. To efficiently locate the correct IP address, the code employs the searching and inserting operations of Splay Trees, known for their speed in search operations.
+
+In practical terms, the router utilizes this structure to swiftly identify and forward data packets to the designated devices. The process is automated, eliminating the need for manual input. Randomization is introduced to simulate data packet values, ensuring a dynamic and realistic scenario in a network router environment.
